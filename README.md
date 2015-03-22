@@ -9,7 +9,7 @@ Files
 
 3. CodeBook.md  - CodeBook describes the raw data,variables in the tidy data and the transformations done on the raw data set to create the tidy data.
 
-4. tidy-data.dat - Result file containing tidy data which will be generated on running the run_analysis.R script
+4. tidy-data.txt - Result file containing tidy data which will be generated on running the run_analysis.R script
 
 How to Run
 ------------
@@ -44,7 +44,7 @@ View Results
 -------------
 In the directory where the result file is created run the following R code
 
->data<-read.table("./tidy-data.dat",header=TRUE)
+>data<-read.table("./tidy-data.txt",header=TRUE)
         
 >View(data)
 

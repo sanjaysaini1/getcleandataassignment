@@ -78,7 +78,7 @@ meltdata=melt(mergedset,id=c("subject","activity"),measure.vars=colnames(mergeds
 res=dcast(meltdata,subject+activity~variable,mean)
 #change working directory to original
 setwd("..")
-# write result to csv file named tidy-data.dat
-write.table(x=res,file="./tidy-data.dat",row.name=FALSE)
+# write result to csv file named tidy-data.txt
+write.table(x=res,file="./tidy-data.txt",row.name=FALSE)
 
 
